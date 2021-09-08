@@ -1,110 +1,35 @@
-body {
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  box-sizing: border-box;
 }
 
 .main-title {
-    text-align: center;
-    margin: 0;
-    font-size: 45px;
-}
-
-li {
-    list-style-type: none;
-}
-
-ul {
-    padding: 0;
+  margin: 20px 0 20px 20px;
 }
 
 .wrapper {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+  display: flex;
+  justify-content: space-around;
 }
 
 .score-head {
-    display: flex;
-    align-items: center;
-    padding: 0 10px;
-    border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.refresh {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 20px;
-    border: 2px solid rgb(54, 54, 54);
-    border-radius: 10px;
-    background-color: #f28766;
-    color: #fff;
-    width: 120px;
-    height: 40px;
-    box-shadow: 1px 2px 4px black;
-    transition: all 0.5s;
-  }
-  
-  .refresh:hover {
-    transition: all 0.5s;
-    background-color: transparent;
-    border: 2px solid #fff;
-    color: #f28766;
-  }
-
-.recent {
-    font-size: 25px;
-    margin-right: 20px;
+.button {
+  margin-left: 25px;
 }
 
-.scores, .div-form {
-    padding: 20px;
+.inputs {
+  margin: 15px 0;
 }
 
-.refresh {
-    margin-left: 10px;
+.form-button {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
 }
-
-.form input {
-    width: 100%;
-    background-color: transparent;
-    font-size: 18px;
-    padding-left: 10px;
-  }
-
-  .inputs {
-    display: flex;
-    align-items: center;
-    border-radius: 10px;
-    height: 40px;
-    margin-bottom: 10px;
-  }
-
-  .form-button {
-    width: 100%;
-    display: flex;
-    justify-content: flex-end;
-  }
-
-  .submit {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 20px;
-    border: 2px solid rgb(54, 54, 54);
-    border-radius: 10px;
-    background-color: #363c48;
-    color: #fff;
-    width: 120px;
-    height: 40px;
-    box-shadow: 1px 2px 4px black;
-    transition: all 0.5s;
-  }
-
-  .submit:hover {
-    transition: all 0.5s;
-    background-color: transparent;
-    border: 2px solid #fff;
-    color: #363c48;
-  }
-  
