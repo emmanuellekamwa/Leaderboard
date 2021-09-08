@@ -6,8 +6,7 @@
   "scripts": {
     "start": "webpack serve --open",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack",
-    "test:lighthouse": "lhci autorun --collect.settings.chromeFlags='--no-sandbox'"
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
